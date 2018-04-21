@@ -1,3 +1,7 @@
+echo "**********************Installing xfce4 GUI**********************"
+apt-get install kali-defaults kali-root-login desktop-base xfce4 xfce4-places-plugin xfce4-goodies
+apt-get install lightdm
+dpkg-reconfigure lightdm
 echo "**********************Installing Vino************************"
 apt-get -y install vino
 gsettings set org.gnome.Vino prompt-enabled false
